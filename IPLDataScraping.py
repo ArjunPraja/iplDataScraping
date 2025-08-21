@@ -34,4 +34,4 @@ for i in data[1:]:
         # Print the extracted data
         print(f"Team: {team}, Player: {first_td_text}, Data: {row}")
 
-df.to_csv("IPL_Auction_Status_2020_by_anamika.csv", index=False)
+df.to_csv("IPL_Auction_Status_2020.csv", index=False)
